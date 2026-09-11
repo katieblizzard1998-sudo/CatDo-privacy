@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delete CatDo cloud account</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.55;
+      color: #2d1b14;
+      background: #fff8f0;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h1 { font-size: 1.85rem; margin: 0 0 0.75rem; }
+    h2 { font-size: 1.2rem; margin: 1.75rem 0 0.6rem; }
+    a { color: #2d1b14; font-weight: 600; }
+    .btn {
+      display: inline-block;
+      margin: 0.5rem 0 1rem;
+      padding: 0.6rem 1rem;
+      border: 2px solid #2d1b14;
+      border-radius: 0.75rem;
+      background: #f4c7a8;
+      text-decoration: none;
+    }
+    .meta { color: #5c463c; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="meta"><a href="./">← Privacy Policy</a></p>
+    <h1>Delete CatDo cloud account</h1>
+    <p>
+      Signing in with Google creates an optional CatDo cloud account used to
+      back up gameplay progress in Firebase. Deleting that account removes the
+      associated Firebase Authentication user and Firestore save. It does not
+      uninstall CatDo or automatically wipe progress stored only on a phone.
+    </p>
+
+    <h2>In the CatDo app</h2>
+    <ol>
+      <li>Open Settings → Account and sign in if needed.</li>
+      <li>Tap <strong>Delete cloud account</strong>.</li>
+      <li>Confirm. Deletion of cloud data is immediate.</li>
+    </ol>
+
+    <h2>From this webpage</h2>
+    <p>
+      Email us from the Google account you used with CatDo. We will delete the
+      matching Firebase user and cloud save, usually within 7 days and no later
+      than 30 days.
+    </p>
+    <p>
+      <a
+        class="btn"
+        href="mailto:catdosupport@gmail.com?subject=CatDo%20account%20deletion%20request&amp;body=Please%20delete%20my%20CatDo%20cloud%20account%20and%20Firebase%20save.%0A%0AGoogle%20account%20email%3A%0A%0AApproximate%20last%20sign-in%20date%20(if%20you%20remember)%3A%0A"
+      >Email a deletion request</a>
+    </p>
+    <p>
+      Or write <a href="mailto:catdosupport@gmail.com">catdosupport@gmail.com</a>
+      with the subject “CatDo account deletion request” and the Google email on
+      the account.
+    </p>
+
+    <h2>What is deleted</h2>
+    <ul>
+      <li>Firebase Authentication record for that Google sign-in</li>
+      <li>Cloud Firestore gameplay save linked to that account</li>
+    </ul>
+    <p>
+      Local CatDo data on a device remains until you clear CatDo storage or
+      uninstall the app. Sign-out alone does not delete the cloud account.
+    </p>
+  </main>
+</body>
+</html>
